@@ -11,7 +11,15 @@ header{
 	text-align: center;
 	color: white;
 	font-weight: 700;
+	font-size: large;
 	
+}
+h1{
+	margin-bottom: 10px;
+}
+p{
+	margin-top: 0;
+	margin-bottom: 30px;
 }
 main{
 	margin: auto;
@@ -21,12 +29,43 @@ main{
 	background-color: rgba(1, 1, 1, 0.7);
 	color: white;
 	padding: 30px;
+	padding-right: 50px;
+	font-size:large;
+
 }
 #name-label, #email-label, #number-label{
 	display: block;
 	width: auto;
+
 }
 #name, #number, #email{
+	width: 100%;
 	display: block;
-	width: 80%;
+	align-self: center;
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
+#dropdown-1, #dropdown-2{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.dropdown-label{
+	width: 100%;
+}
+#radio-div{
+	display: flex;
+	flex-direction: column;
+
+}
+main p{
+	margin: 0;
+	display: block;
+}
+#checkbox-div{
+	display: flex;
+	flex-direction: column;
+}
+
