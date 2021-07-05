@@ -18,29 +18,29 @@
 		<form  id="survey-form"action="#">
 			<label id="name-label"for="name">Name<input id="name" type="text" required placeholder="Enter your name"></label>
 			<label id="email-label" for="email">Email<input id="email"type="email" required placeholder="Enter your email"></label>
-			<label for="number">Age (optional)<input id="number" type="number" placeholder="Age"></label>
-			<label for="select-1">Which option best describes your current role?<select name="" id="select-1">><option id="" value="Select current role">Select current role</option></select></label>
+			<label for="number">Age (optional)<input id="number" type="number" placeholder="Age" min="5" max="100"></label>
+			<label for="dropdown">Which option best describes your current role?<select name="" id="dropdown">><option id="" value="Select current role">Select current role</option></select></label>
 			<div id="radio-div">
 			<p>Would you recommend freeCodeCamp to a friend?</p>
 				<label for="recommend-definitely"><input type="radio" id="recommend-definitely"name="recommend"value="definitely">Definitely</label>
 				<label for="recommend-maybe"><input type="radio" id="recommend-maybe"name="recommend"value="maybe">Maybe</label>
 				<label for="recommend-notsure"><input type="radio"  id="recommend-notsure"name="recommend"value="notsure">Not Sure</label>
 			</div>
-			<label class="dropdown-label"for="select-2">What is your favorite feature of freeCodeCamp? <select name="" id="select-2">
+			<label class="dropdown-label"for="dropdown-2">What is your favorite feature of freeCodeCamp? <select name="" id="dropdown-2">
 			<option value="selectoption" id=""> Select an option</option></select> </label>
 			<div id="checkbox-div">
 				<p>What would you like to see improved? (Check all that apply)</p>
-				<label for="checkbox-1"><input type="checkbox" id="checkbox-1">Front-end Projects</label>
-				<label for="checkbox-2"><input type="checkbox" id="checkbox-2">Back-end Projects</label>
-				<label for="checkbox-3"><input type="checkbox" id="checkbox-3">Data Visualization</label>
-				<label for="checkbox-4"><input type="checkbox" id="checkbox-4">Challenges</label>
-				<label for="checkbox-5"><input type="checkbox" id="checkbox-5">Open Source Community</label>
-				<label for="checkbox-6"><input type="checkbox" id="checkbox-6">Gitter help rooms</label>
-				<label for="checkbox-7"><input type="checkbox" id="checkbox-7">Videos</label>
-				<label for="checkbox-8"><input type="checkbox" id="checkbox-8">City Meetups</label>
-				<label for="checkbox-9"><input type="checkbox" id="checkbox-9">Wiki</label>
-				<label for="checkbox-10"><input type="checkbox" id="checkbox-10">Forum</label>
-				<label for="checkbox-11"><input type="checkbox" id="checkbox-11">Additional Courses</label>
+				<label for="checkbox-1"><input type="checkbox" id="checkbox-1" value="ftend-projects">Front-end Projects</label>
+				<label for="checkbox-2"><input type="checkbox" id="checkbox-2" value="bckend-projects">Back-end Projects</label>
+				<label for="checkbox-3"><input type="checkbox" id="checkbox-3" value="dt-visualization">Data Visualization</label>
+				<label for="checkbox-4"><input type="checkbox" id="checkbox-4" value="challenges">Challenges</label>
+				<label for="checkbox-5"><input type="checkbox" id="checkbox-5" value="op-source-cmmt">Open Source Community</label>
+				<label for="checkbox-6"><input type="checkbox" id="checkbox-6" value="gitter-help">Gitter help rooms</label>
+				<label for="checkbox-7"><input type="checkbox" id="checkbox-7" value="videos">Videos</label>
+				<label for="checkbox-8"><input type="checkbox" id="checkbox-8" value="ct-meetups">City Meetups</label>
+				<label for="checkbox-9"><input type="checkbox" id="checkbox-9" value="wiki">Wiki</label>
+				<label for="checkbox-10"><input type="checkbox" id="checkbox-10" value="forum">Forum</label>
+				<label for="checkbox-11"><input type="checkbox" id="checkbox-11" value="addtional-crs">Additional Courses</label>
 			</div>
 			<label for="textarea">Any comments or suggestions?<textarea id="textarea" placeholder="Enter your comment here..."></textarea></label>
 			<button id="submit" type="submit">Submit</button>
