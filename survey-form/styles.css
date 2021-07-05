@@ -43,7 +43,7 @@ label{
 	display: block;
 	align-self: center;
 	margin-top: 5px;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 	padding: 10px;
 }
 #select-1, #select-2{
@@ -102,4 +102,12 @@ input[type="radio"]:hover{
 }
 input[type="checkbox"]:hover{
 	cursor: pointer;
+}
+@media screen and (max-width: 767px){
+header{
+	padding: 30px;
+}
+h1{
+	margin-bottom: 30px;
+}
 }
