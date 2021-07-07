@@ -75,9 +75,9 @@ form input{
 #email{
 	width: 30%;
 }
-.yellow-btn{
+.orange-btn{
 	width: 20%;
-	background-color: orange;
+	background-color: darkorange;
 	font-weight: 700;
 	border-style: none;
 	padding: 5px;
@@ -92,6 +92,7 @@ form input{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 50px;
 
 }
 .grid{
@@ -102,21 +103,79 @@ form input{
 
 }
 .icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 125px;
-  width: 20vw;
-  color: darkorange;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+ 	height: 125px;
+ 	width: 20vw;
+  	color: darkorange;
 }
 .desc {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 125px;
-  width: 80vw;
-  padding: 5px;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 height: 125px;
+	 width: 80vw;
+	 padding: 5px;
 }
 i{
 	font-size: 3em;
+}
+#video-div{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+#products-div{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 80%;
+	margin: auto;
+}
+.products-card{
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	width: calc(100%/3);
+	justify-content: center;
+	align-content: center;
+	margin: 10px;
+
+}
+.products-description{
+	text-align: center;
+	list-style: none;
+	margin: 15px 0;
+	padding: 0;
+	
+}
+.products-description li{
+	padding: 5px 0;
+	
+}
+.product-name{
+	background-color: #ddd;
+  	color: black;
+  	padding: 15px 0;
+  	width: 100%;
+  	text-transform: uppercase;
+  	font-weight: 700;
+  	text-align: center;
+}
+.product-name h2{
+	margin-top: 15px;
+
+}
+.product-price{
+	align-self: center;
+	font-weight: 700;
+	font-size: x-large;
+}
+#products-div button{
+	width: auto;
+	margin-bottom: 20px;
+	align-self: center;
+
 }
