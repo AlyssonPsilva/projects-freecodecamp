@@ -7,7 +7,7 @@ body{
 	background-color: rgba(1, 1, 1, 0.1);
 	font-family: 'Roboto Condensed', sans-serif;
 }
-ul{
+li{
 	list-style: none;
 }
 header{
@@ -83,7 +83,7 @@ form input{
 	padding: 5px;
 	font-size: large;
 }
-.yellow-btn:hover{
+.orange-btn:hover{
 	cursor: pointer;
 }
 #information-div{
@@ -133,6 +133,7 @@ i{
 	align-content: center;
 	width: 80%;
 	margin: auto;
+	margin-bottom: 50px;
 }
 .products-card{
 	border: 1px solid black;
@@ -178,4 +179,39 @@ i{
 	margin-bottom: 20px;
 	align-self: center;
 
+}
+footer{
+	width: 80%;
+	background-color: lightgray;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin: auto;
+	padding: 10px;
+	padding-bottom: 0;
+	align-items: center;
+
+}
+#footer-menu{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-self: flex-end;
+	width: auto;
+
+}
+#footer-menu li{
+	align-self: flex-end;
+	margin: 10px;
+}
+footer p{
+	align-self: flex-end;
+	padding: 0;
+	margin-top:5px;
+	color: #444;
+}
+.nav-link{
+	text-decoration: none;
+	color: black;
 }
