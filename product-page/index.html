@@ -3,70 +3,102 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/785bcfb039.js" crossorigin="anonymous"></script>
 	<title>FreeCodeCamp -- Product Page</title>
 </head>
 <body><!--some parts of this code can be not semantically right because of Free Code Camp exigency-->
 	<header id="header">
-		<img id="header-img"src="" alt="company logo">
-		<nav id="nav-bar">
-			<ul>
-				<li><a href="" class="nav-link">Features</a></li>
-				<li><a href="" class="nav-link">How It Works</a></li>
-				<li><a href="" class="nav-link">Pricing</a></li>
+			<img id="header-img"src="./images/logo.png" alt="company logo">	
+			<nav id="nav-bar">
+			<ul id="header-menu">
+				<li><a href="#information-div" class="nav-link">Features</a></li>
+				<li><a href="#video-div" class="nav-link">How It Works</a></li>
+				<li><a href="#products-div" class="nav-link">Pricing</a></li>
 			</ul>
 		</nav>
 	</header>
 	<main>
-		<form id="form" action="https://www.freecodecamp.com/email-submit)." method="post">
-			<input id="email" type="email">
-			<button id="submit" class="yellow-btn"type="submit">Get Started</button>
-		</form>
-		<div id="information-div">
-			<ul>
-				<li id="first-item">
-					<h2 class="information-div-title"></h2>
-					<p class="information-div-text"></p>
-				</li>
-				<li id="second-item">
-					<h2 class="information-div-title"></h2>
-					<p class="information-div-text"></p>
-				</li>
-				<li id="third-item">
-					<h2 class="information-div-title"></h2>
-					<p class="information-div-text" ></p>
-				</li>
-			</ul>
+		<div id="form-div">
+			<form id="form" action="https://www.freecodecamp.com/email-submit)." method="post">
+				<h1>Handcrafted, home-made masterpieces</h1>
+				<input id="email" type="email" placeholder="Enter your email address">
+				<button id="submit" class="btn"type="submit">Get Started</button>
+			</form>
 		</div>
+		<div id="information-div">
+			<div class="grid">
+				<div class="icon"><i class="fas fa-fire"></i></div>
+				<div class="desc">
+					<h1>Premium Materials</h1>
+					<p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+				</div>
+			</div>
+			<div class="grid">
+				<div class="icon"><i class="fas fa-truck"></i></div>
+				<div class="desc">
+					<h1>Fast Shipping</h1>
+					<p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+				</div>
+			</div>
+			<div class="grid">
+				<div class="icon"><i class="fas fa-battery-full"></i></div>
+				<div class="desc">
+					<h1>Quality Assurance</h1>
+					<p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+				</div>
+			</div>
+					</div>
 		<div id="video-div">
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 		<div id="products-div">
 			<div class="products-card">
-				<p class="product-name"></p>
-				<p class="product-price"></p>
-				<p id="products-description"></p>
-				<button class="yellow-btn">SELECT</button>
+				<div class="product-name">TENOR TROMBONE</div>
+				<p class="product-price">$600</p>
+				<ol class="products-description">
+				<li>Lorem ipsum.</li>
+				<li>Lorem ipsum.</li>
+				<li>Lorem ipsum dolor.</li>
+				<li>Lorem ipsum.</li>
+			</ol>
+				<button class="btn">SELECT</button>
 			</div>
 			<div class="products-card">
-				<p class="product-name"></p>
-				<p class="product-price"></p>
-				<p id="products-description"></p>
-				<button class="yellow-btn">SELECT</button>
+				<div class="product-name">BASS TROMBONE</div>
+				<p class="product-price">$900</p>
+				<ol class="products-description">
+				<li>Lorem ipsum.</li>
+				<li>Lorem ipsum.</li>
+				<li>Lorem ipsum dolor.</li>
+				<li>Lorem ipsum.</li>
+			</ol>
+				<button class="btn">SELECT</button>
 			</div>
 			<div class="products-card">
-				<p class="product-name"></p>
-				<p class="product-price"></p>
-				<p id="products-description"></p>
-				<button class="yellow-btn">SELECT</button>
+				<div class="product-name">VALVE TROMBONE</div>
+				<p class="product-price">$1200</p>
+				<ol class="products-description">
+				<li>Plays similar to a Trumpet</li>
+				<li>Great for Jazz Bands</li>
+				<li>Lorem ipsum dolor.</li>
+				<li>Lorem ipsum..</li>
+			</ol>
+
+				<button class="btn">SELECT</button>
 			</div>
 		</div>
 		<footer>
 			<nav id="footer-menu">
-				<li></li>
-				<li></li>
-				<li></li>
-			</naav>
-			<p id="footer-text"></p>
+				<li><a class="nav-link" href="#">Privacy</a></li>
+				<li><a class="nav-link"href="#">Terms</a></li>
+				<li><a class="nav-link"href="#">Contact</a></li>
+			</nav>
+			<p id="footer-text">Copyright 2016, Original Trombones</p>
+
 		</footer>
 	</main>
 </body>
