@@ -75,15 +75,15 @@ form input{
 #email{
 	width: 30%;
 }
-.orange-btn{
+.btn{
 	width: 20%;
-	background-color: darkorange;
+	background-color: #f1c40f;
 	font-weight: 700;
 	border-style: none;
 	padding: 5px;
 	font-size: large;
 }
-.orange-btn:hover{
+.btn:hover{
 	cursor: pointer;
 }
 #information-div{
@@ -109,7 +109,7 @@ form input{
 	
 
 }
-.icon {
+.icon{
   	display: flex;
   	align-items: center;
   	justify-content: center;
@@ -187,6 +187,7 @@ i{
 	width: auto;
 	margin-bottom: 20px;
 	align-self: center;
+	font-weight: 200;
 
 }
 footer{
@@ -220,6 +221,7 @@ footer p{
 	margin-top:5px;
 	color: #444;
 }
+
 /* media queries*/
 
 @media screen and (max-width: 768px){
@@ -275,7 +277,7 @@ footer p{
 	#email{
 		width: 80%;
 	}
-	.orange-btn{
+	.btn{
 		width: 40%;
 	}
 	.grid{
@@ -317,4 +319,12 @@ footer p{
 		align-self: center;
 	}
 
+}
+
+@media screen and (min-width: 1441px){
+	#header-menu{
+		width: 50%;
+
+
+	}
 }
