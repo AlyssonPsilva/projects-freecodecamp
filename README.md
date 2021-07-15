@@ -1,2 +1,2 @@
-# projectsFreecodecamp
- repository of projects for FreeCodeCamp certifications
+# projects-freecodecamp
+repository of projects for FreeCodeCamp certifications
