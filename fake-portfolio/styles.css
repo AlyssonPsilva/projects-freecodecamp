@@ -313,12 +313,14 @@ footer a{
         width: 100%;
         height: auto;
     }
-    
+    .project-name{
+        text-align: center;
+    }
     #show-all{
         align-self: center;
     }
     #contact-section{
-        height: 50vh;
+        height: 100vh;
     }
     #contact-section h2{
         font-size: xx-large;
@@ -327,11 +329,30 @@ footer a{
         font-size: x-large;
     }
     #contact-menu{
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 50px 50px;
+        
 
     }
     #contact-menu li{
         font-size: large;
+        margin: 0;
+    }
+    #mobile-centered{
+        grid-column: 1/3;
+        align-self: center;
+        justify-self: center;
         
+    }
+    footer{
+        flex-direction: column;
+        padding: 20px;
+        font-size: medium;
+
+    }
+    footer p{
+        max width: 200px;
     }
 }
