@@ -66,7 +66,7 @@ header{
     width: 100%;
     padding: 0;
     margin: 0;
-    min-height: 100vh;
+    height: 100vh;
     
 }
 #welcome-section h1{
@@ -264,4 +264,67 @@ footer{
 }
 footer a{
     color: var(--main-white);
+}
+/*media queries*/
+
+@media screen and (max-width: 768px){
+    body{
+        background-size: cover;
+    }
+
+    header{
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        max-width: 100vw;
+    }
+    #nav-menu a{
+        display: flex;
+    }
+    
+    #welcome-section h1{
+        font-size: xx-large;
+    }
+    #welcome-section p{
+        font-size: x-large;
+    }
+    #projects-tittle{
+        font-size: x-large;
+    }
+    #projects-grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+    }
+    .grid-item{
+        width: 100%;
+        
+    }
+    .grid-img{
+        width: 100%;
+        height: auto;
+    }
+    
+    #show-all{
+        align-self: center;
+    }
+    #contact-section{
+        height: 50vh;
+    }
+    #contact-section h2{
+        font-size: xx-large;
+    }
+    #contact-section p{
+        font-size: x-large;
+    }
+    #contact-menu{
+        flex-direction: row;
+
+    }
+    #contact-menu li{
+        font-size: large;
+        
+    }
 }
