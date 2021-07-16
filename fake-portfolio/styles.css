@@ -266,7 +266,13 @@ footer a{
     color: var(--main-white);
 }
 /*media queries*/
-
+@media screen and (min-width: 320px) and (max-width: 425px){
+    #projects-tittle{
+        font-size: x-large;
+        text-align: center;
+        max-width: 250px;
+    }
+}
 @media screen and (max-width: 768px){
     body{
         background-size: cover;
@@ -289,7 +295,8 @@ footer a{
         font-size: x-large;
     }
     #projects-tittle{
-        font-size: x-large;
+        font-size: xx-large;
+        
     }
     #projects-grid{
         display: flex;
