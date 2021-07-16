@@ -274,9 +274,6 @@ footer a{
     }
 }
 @media screen and (max-width: 768px){
-    body{
-        background-size: cover;
-    }
 
     header{
         justify-content: center;
@@ -333,12 +330,13 @@ footer a{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-gap: 50px 50px;
-        
+
 
     }
     #contact-menu li{
         font-size: large;
         margin: 0;
+        justify-self: center;
     }
     #mobile-centered{
         grid-column: 1/3;
