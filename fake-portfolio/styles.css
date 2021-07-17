@@ -322,10 +322,10 @@ footer a{
         height: 100vh;
     }
     #contact-section h2{
-        font-size: xx-large;
+        font-size: x-large;
     }
     #contact-section p{
-        font-size: x-large;
+        font-size: large;
     }
     #contact-menu{
         display: grid;
@@ -334,9 +334,10 @@ footer a{
         grid-gap: 50px 50px;
 
 
+
     }
     #contact-menu li{
-        font-size: large;
+        font-size: medium;
         margin: 0;
         justify-self: center;
     }
@@ -348,10 +349,12 @@ footer a{
     }
     footer{
         flex-direction: column;
+    
         
     }
     footer p{
         max width: 200px;
-        
+        font-size: small;
+
     }
 }
