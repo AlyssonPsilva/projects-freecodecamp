@@ -294,7 +294,7 @@ footer a{
         font-size: x-large;
     }
     #projects-tittle{
-        font-size: xx-large;
+        font-size: x-large;
         
     }
     #projects-grid{
@@ -323,9 +323,10 @@ footer a{
     }
     #contact-section h2{
         font-size: x-large;
+        margin-bottom: 10px;
     }
     #contact-section p{
-        font-size: large;
+        font-size: medium;
     }
     #contact-menu{
         display: grid;
@@ -349,12 +350,13 @@ footer a{
     }
     footer{
         flex-direction: column;
-    
+
         
     }
     footer p{
         max width: 200px;
         font-size: small;
+        text-align: center;
 
     }
 }
