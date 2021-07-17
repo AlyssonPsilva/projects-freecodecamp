@@ -94,7 +94,6 @@ header{
 #projects-tittle{
     align-self: center;
     font-size: 2rem;
-    
     margin: 0;
     padding: 0;
     padding-top: 50px;
@@ -107,20 +106,20 @@ header{
 #projects-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
+    grid-gap: 100px 100px;
     width: 70%;
     margin: 0;
     margin-bottom: 6rem;
-    max-width: 70%;
     padding: 0;
-    margin: 0 auto;
+    align-self: center;
     
 }
 
 .grid-item{
-    width: 300px;
+    width: 100%;
     height: auto;
     background-color: var(--main-gray);
+    justify-self: center;
 }
 .grid-item a{
     margin: 0;
@@ -168,9 +167,7 @@ header{
     grid-row: 2/2;
     
 }
-.grid-button{
-    width: 100%;
-}
+
 
 .code-effect{
     color: var(--main-gray);
@@ -178,7 +175,7 @@ header{
 .project-name{
     text-align: center;
     font-size: large;
-    padding: 10px;
+    padding: 5px;
     margin: 0;
 
 }
@@ -305,7 +302,8 @@ footer a{
         padding: 0;
     }
     .grid-item{
-        width: 100%;
+        width: 80%;
+        align-self: center;
         
     }
     .grid-img{
@@ -358,5 +356,17 @@ footer a{
         font-size: small;
         text-align: center;
 
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px){
+    .grid-img{
+       height: 150px;
+    }
+}
+
+@media screen and (min-width: 1700px){
+    
+    #contact-section{
+        height: 30vh;
     }
 }
